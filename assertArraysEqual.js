@@ -10,7 +10,7 @@ const eqArrays = function(arr1, arr2) {
     } 
   }
   return true;
-  //return JSON.stringify(arr1)==JSON.stringify(arr2);
+  
 };
 
 const assertArraysEqual = function(arrA, arrB) {
