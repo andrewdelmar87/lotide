@@ -15,14 +15,16 @@ const countLetters = function(string) {
   const output = {};
 
   for (let letter of finalString) {
+    
     if (output[letter]) {
       output[letter] += 1
     } else {
       output[letter] = 1
+      console.log(output)
     }
   }
+  
   return output;
 };
 
-console.log(assertEqual(countLetters("this is a test")["q"],1));
 console.log(countLetters("this is a a test")["s"]);
