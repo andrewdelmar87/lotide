@@ -13,12 +13,12 @@ const eqArrays = function(arr1, arr2) {
   
 };
 
-const assertArraysEqual = function(arrA, arrB) {
+const assertArraysEqual = function(actual, expected) {
   
-  if (eqArrays(arrA, arrB)) {
-    console.log(`✅✅✅ Assertion Passed: ${arrA} === ${arrB}`);
+  if (eqArrays(actual, expected)) {
+    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
   } else {
-    console.log(`🛑🛑🛑 Assertion Failed: ${arrA} !== ${arrB}`);
+    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
   }
 };
 
