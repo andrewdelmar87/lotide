@@ -36,6 +36,8 @@ const eqArrays = function(arr1, arr2) {
   return true;
 };
 
+module.exports = letterPositions;
+
 //test code
 const test = letterPositions("hello");
 console.log(test);

@@ -35,4 +35,6 @@ const assertObjectsEqual = function(actual, expected) {
   
 };
 
-console.log(assertObjectsEqual(eqObjects([1, 4, 3], [1, 2, 3]), false));
+module.exports = assertObjectsEqual;
+
+// console.log(assertObjectsEqual(eqObjects([1, 4, 3], [1, 2, 3]), false));
